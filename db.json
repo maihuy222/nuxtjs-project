@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iphone12",
+      "description": "ee",
+      "price": 333,
+      "category": "mỹ",
+      "status": "Available",
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/01/Y7deW5ZtpOonbiD_XawHLHdkjKYKHvWxvxNZzKdXXn0L8InieLIH_-U5m0u-RUlFtXKp0Ty91Itj4Oxwn_tjKg_UZo3lxFSrOH_DHIbpKP1LDn80z6BbOxj4d8bmymdy8PWFGjLkTpCdoz-3X-KY7IedQ_dxWJlHSIBWwCYhgM02FvUfVUgLKOQxrQWgjw.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Iphone14",
+      "description": "333",
+      "price": 333,
+      "category": "mỹ",
+      "status": "Available",
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/01/Y7deW5ZtpOonbiD_XawHLHdkjKYKHvWxvxNZzKdXXn0L8InieLIH_-U5m0u-RUlFtXKp0Ty91Itj4Oxwn_tjKg_UZo3lxFSrOH_DHIbpKP1LDn80z6BbOxj4d8bmymdy8PWFGjLkTpCdoz-3X-KY7IedQ_dxWJlHSIBWwCYhgM02FvUfVUgLKOQxrQWgjw.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Iphone12",
+      "description": "33",
+      "price": 33,
+      "category": "mỹ",
+      "status": "Available",
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/01/Y7deW5ZtpOonbiD_XawHLHdkjKYKHvWxvxNZzKdXXn0L8InieLIH_-U5m0u-RUlFtXKp0Ty91Itj4Oxwn_tjKg_UZo3lxFSrOH_DHIbpKP1LDn80z6BbOxj4d8bmymdy8PWFGjLkTpCdoz-3X-KY7IedQ_dxWJlHSIBWwCYhgM02FvUfVUgLKOQxrQWgjw.jpg"
+    },
+    {
+      "id": null,
+      "name": "Iphone12",
+      "description": "eee",
+      "price": 33434,
+      "category": "mỹ",
+      "status": "Available",
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/01/Y7deW5ZtpOonbiD_XawHLHdkjKYKHvWxvxNZzKdXXn0L8InieLIH_-U5m0u-RUlFtXKp0Ty91Itj4Oxwn_tjKg_UZo3lxFSrOH_DHIbpKP1LDn80z6BbOxj4d8bmymdy8PWFGjLkTpCdoz-3X-KY7IedQ_dxWJlHSIBWwCYhgM02FvUfVUgLKOQxrQWgjw.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "MAI HỮU HUY",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "12"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "MAI HỮU HUY",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "20/6"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "MAI HỮU HUY",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "14\n\n"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "MAI HỮU HUY",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "22"
+      ]
+    },
+    {
+      "id": null,
+      "name": "MAI HỮU HUY",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "11"
+      ]
+    },
+    {
+      "id": null,
+      "name": "Mai Hữu Hoàng",
+      "address": "Làng O Bụng La Ko, Chư Sê, Gia Lai",
+      "purchaseHistory": [
+        "55"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "products": [
+        "Sản phẩm A",
+        "Sản phẩm B"
+      ],
+      "orderDate": "2024-11-01",
+      "status": "Đang xử lý",
+      "customerName": "Nguyen Van A"
+    }
+  ]
+}
